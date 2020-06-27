@@ -1,12 +1,10 @@
 body{background-color: #f5f5f5;
-	margin: 0;
+	margin: 1%;
 }
 
 div.header{margin: 0;
 	padding-top: 3%;
 	padding-bottom: 10%;
-	/*padding-left: auto;
-	padding-right: auto;*/
 }
 
 .headtext{margin: 0;
@@ -22,16 +20,17 @@ div.header{margin: 0;
 
 
 .block {		/*To design the different sections*/
+text-align: center;
 width: 100%;
 /*height: 40%;*/
-text-align: center;		
+margin-left: auto;
+margin-right: auto;		
+border-color: black;
+border-style: solid;
+border-width: 2px;
 color: black;
 font-size: 2.5vw;
 font-family: 'Inconsolata', monospace;	
-}
-
-.block::after{clear: both;	
-	display: table;	
 }
 
 
@@ -47,18 +46,18 @@ font-family: 'Inconsolata', monospace;
 }
 
 
-.tile { margin-left: 2%;		/*To design the project tiles*/
-		margin-right: 2%;
+.tile {
+		display: inline-block;	/*To ensure the tiles are placed in pairs*/
+		margin-left: 3%;		/*To design the project tiles*/
+		margin-right: 3%;
 		margin-bottom: 15%;
 		border-style: solid;
 		border-width: 5px;
 		border-color: black;
 
-		width: 45vw;
-		height: 28vw;
-		float: left;
+		width: 40vw;
+		height: 25vw;
 
-		text-align: center;		
 		color: black;
 		font-size: 2vw;
 		font-family: 'Inconsolata', monospace;	
@@ -86,7 +85,6 @@ font-family: 'Inconsolata', monospace;
 	padding-top: 5%;
 	padding-bottom: 3%;
 	width: 100%;
-/*height: 40%;*/
 text-align: center;		
 color: black;
 font-size: 2.5vw;
